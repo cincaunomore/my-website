@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imrani | AI Developer Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__inner max-container">
+        <!-- #home tu link utk ke homepage -->
+        <a href="#home" class="header__logo">
+          <img
+            src="./images/2843568.png"
+            class="header__logo__img"
+            alt="logo"
+          />
+          <span class="header__logo__title">Imrani</span>
+        </a>
+        <!-- checkbox:open n close the menu -->
+        <input
+          type="checkbox"
+          id="nav-toggle"
+          class="header__checkbox"
+          aria-hidden="true"
+        />
+        <!-- aria-hidden=true : maksudnya dia akan stay hidden -->
+        <!-- Toggle menu nak open close -->
+        <label
+          for="nav-toggle"
+          class="header__toggle"
+          aria-label="Menu Open Close"
+        >
+          <span class="header__icon header__icon--open" aria-hidden="true"
+            >=</span
+          >
+          <span class="header__icon header__icon-close" aria-hidden="true"
+            >x</span
+          >
+        </label>
+        <!-- navigation menu -->
+        <nav class="header__nav">
+          <ul class="header__menu">
+            <li>
+              <a href="#home" class="header__menu__item active">Active</a>
+            </li>
+            <li>
+              <a href="#about" class="header__menu__item active"
+                >Self-Introduction</a
+              >
+            </li>
+            <li>
+              <a href="#skils" class="header__menu__item active">Skills</a>
+            </li>
+            <li>
+              <a href="#work" class="header__menu__item active">Portfolio</a>
+            </li>
+            <li>
+              <a href="#license" class="header__menu__item active"
+                >Certifications</a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="header__menu__item active"
+                >Contact Information</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </body>
+</html>
